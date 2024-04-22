@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>String Problem</title>
+<script>
+function num(){
+var st=document.getElementById("st1").value;
+var i=0, st1="";
+for(;i<st.length;i++){
+st1=st.charAt(i)+st1;
+}
+if(st==st1)
+alert("Palindrome");
+else
+alert("Not palindrome");
+}
+</script>
+</head>
+<body>
+<form id="f1" action="#">
+Enter a string:<input id="st1" name="st1" type="text">
+<input type ="submit" value="submit" onclick="num">
+</form>
+</body>
+</html>

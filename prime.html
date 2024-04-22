@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>prime no</title>
+<script>
+function prime(){
+var i=document.getElementById("val").value;
+var f=0, j=1;
+while(j<=i){
+if(i%j==0)
+f++;
+j++;
+}
+if(f==2)
+document.write("prime number");
+else 
+document.write("not prime number");
+}
+</script>
+</head>
+<body>
+<form name="form1" id="form1" action="#">
+Enter value :<input id="val" name="val" type="text">
+<input id="submit" type="submit" onclick="prime()">
+</form>
+</body>
+</html>

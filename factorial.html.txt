@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+var no=prompt("Enter Number");
+var fact=1,i;
+for(i=1;i<=no;i++)
+{
+fact=fact*i;
+}
+document.write("Factorial="+fact);
+</script>
+</head>
+<body>
+</body>
+</html>

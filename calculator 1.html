@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>calculator</title>
+</head>
+<script>
+var num1;
+var num2;
+var choice;
+num1=parseInt(prompt("enter first number"));
+num2=parseInt(prompt("enter second number"));
+choice=parseInt(prompt("enter your choice\n1 for addition\n2 for subtraction\n
+3 for multiplication\n4 for division"));
+switch(choice)
+{
+  Case 1:result=num1+num2;
+        break;
+  Case 2:result=num1-num2;
+        break;
+  Case 3:result=num1*num2;
+        break;
+  Case 4:result=num1/num2;
+        break;
+  default:result="invalid choice";
+        break;
+}
+document.write("result"+result);
+</script>
+
+<body>
+</body>
+</html>    
+    
